@@ -1,0 +1,50 @@
+.Slideshow {
+  position: relative;
+  text-align: center;
+}
+.Slideshow .SlidesContainer {
+margin:50px auto;
+width:560px;
+height:100%;
+overflow:auto; /* разрешаем прокрутку */
+position:relative;
+text-align: center;
+}
+.Slideshow .SlidesContainer .Slide {
+  margin:0 auto;
+  width:540px;
+  height:100%;
+}
+.Control {
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.Slideshow .Navigation {
+margin-top: 10px;
+text-align: center;
+cursor:pointer;
+}
+	
+.Slideshow .Navigation .Dot{
+display:inline-block;
+width:16px;
+height:16px;
+background:white;
+cursor:pointer;
+border-radius:16px;
+margin:0 20px;
+border:1px solid black;
+}
+		
+.Slideshow .Navigation .Active{
+background: black;
+}
+.non-vis {
+	visibility: hidden;
+}
+.number_of_slider {
+	position: absolute;
+	bottom: 0;
+	left: 30%;
+}

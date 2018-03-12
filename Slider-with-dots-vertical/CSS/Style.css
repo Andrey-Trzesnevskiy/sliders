@@ -1,0 +1,42 @@
+.SlShow {
+  position: relative;
+  text-align: center;
+}
+.SlContainer {
+display: inline-block;
+}
+.SlShow .SlContainer {
+width:560px;
+height:300px;
+overflow:auto;
+position:relative;
+text-align: center;
+}
+.SlShow .SlContainer .Slider {
+  margin:0 auto;
+  width:540px; 
+}
+
+.Slshow .Nav {
+margin-top: 10px;
+text-align: center;
+cursor:pointer;
+}
+.Nav {
+	position: absolute;
+	right: 5%;
+	top: 10%;
+}
+.SlShow .Nav .Dots {
+width:16px;
+height:16px;
+background:white;
+cursor:pointer;
+border-radius:16px;
+margin:15px 0px;
+border:1px solid black;
+}
+		
+.SlShow .Nav .Act {
+background: black;
+}

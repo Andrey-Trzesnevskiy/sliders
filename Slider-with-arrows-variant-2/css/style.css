@@ -1,0 +1,26 @@
+body {
+	margin: 0;
+}
+.slider_box {
+    background-color: #f06c64;
+    text-align: center;
+}
+.slider {
+	padding: 20px 100px;
+	margin: auto;
+    box-sizing: border-box;
+    width: 450px;
+}
+.slider_item {
+	text-align: center;
+	padding: 15px;
+	margin: 5px;
+}
+.container {
+	height: 200px;
+	width: 200px;
+	background-color: #ddd;
+	border: solid;
+	border-radius: 50%;
+}
+
